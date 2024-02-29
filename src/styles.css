@@ -712,7 +712,7 @@ body {
   }
 
   .section-3 {
-    background: linear-gradient(83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%), url(../assets/taj.png);
+    background: linear-gradient(83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%), url(../assets/admin-half-rev.jpg);
     background-attachment: fixed;
   }
 
@@ -723,13 +723,13 @@ body {
 
   .section-3 h2,
   .section-4 h2 {
-    font-size: 28px;
+    font-size: 23px;
   }
 
   .section-3 p {
     padding-bottom: 50px;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 19px;
   }
 
   .svg-vector1 {
