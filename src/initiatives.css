@@ -41,7 +41,7 @@ body {
 }
 
 .section2 .img-bg {
-    background-image: url("../assets/apd.png");
+    background-image: url("../assets/apd.avif");
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -50,7 +50,7 @@ body {
 }
 
 .section2 .nukkad {
-    background-image: url("../assets/nukkad.png");
+    background-image: url("../assets/nukkad.avif");
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -59,11 +59,11 @@ body {
 }
 
 .section2.codec .img-bg {
-    background-image: url("../assets/yogaDay.png") !important;
+    background-image: url("../assets/yogaDay.avif") !important;
 }
 
 .sec1 .img-bg {
-    background-image: url("../assets/women.png");
+    background-image: url("../assets/women.avif");
     box-shadow: rgba(220, 28, 28, 0.24) 0px 4px 8px;
 }
 
