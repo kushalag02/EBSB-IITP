@@ -349,7 +349,7 @@ body {
 
 .section-3 {
   /* height: 728px; */
-  background: linear-gradient(83.61deg, #2D3E50 45.3%, rgba(45, 62, 80, 0.6) 96.35%), url(../assets/admin-half.jpg);
+  background: linear-gradient(83.61deg, #2D3E50 45.3%, rgba(45, 62, 80, 0.6) 96.35%), url(../assets/admin-half.avif);
   background-size: cover;
   padding: 0 !important;
   background-attachment: fixed;
@@ -398,7 +398,7 @@ body {
 }
 
 .section-5 {
-  background: linear-gradient(90deg, rgba(45, 62, 80, 0.865) 1.8%, rgba(45, 62, 80, 0.95) 50.9%, rgba(45, 62, 80, 0.865) 100%), url(../assets/green2.jpeg);
+  background: linear-gradient(90deg, rgba(45, 62, 80, 0.865) 1.8%, rgba(45, 62, 80, 0.95) 50.9%, rgba(45, 62, 80, 0.865) 100%), url(../assets/green2.avif);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -441,7 +441,7 @@ body {
 }
 
 .message-card .lower-card .profile-icon {
-  background-image: linear-gradient(rgba(45, 62, 80, .8), rgba(45, 62, 80, .6)), url('../assets/img.png');
+  background-image: linear-gradient(rgba(45, 62, 80, .8), rgba(45, 62, 80, .6)), url('../assets/img.avif');
   background-size: cover;
   background-position: center;
   height: 70px;
@@ -712,7 +712,7 @@ body {
   }
 
   .section-3 {
-    background: linear-gradient(83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%), url(../assets/admin-half-rev.jpg);
+    background: linear-gradient(83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%), url(../assets/admin-half-rev.avif);
     background-attachment: fixed;
   }
 
