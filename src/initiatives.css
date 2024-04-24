@@ -49,6 +49,15 @@ body {
     border-radius: 20px;
 }
 
+.yogaDay {
+    background-image: url("../assets/yogaDay.png") !important;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
 .section2 .nukkad {
     background-image: url("../assets/nukkad.png");
     background-position: center;
@@ -58,9 +67,60 @@ body {
     border-radius: 20px;
 }
 
-.section2.codec .img-bg {
-    background-image: url("../assets/yogaDay.png") !important;
+.quiz-event {
+    background-image: url("../assets/quiz_event.png") !important;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
 }
+
+.painting {
+    background-image: url("../assets/painting.png") !important;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cycle {
+    background-image: url("../assets/cycle-event.png") !important;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.essay {
+    background-image: url("../assets/essay-event.png") !important;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.lens {
+    background-image: url("../assets/lens.png") !important;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.clean {
+    background-image: url("../assets/cleanliness.png") !important;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
 
 .sec1 .img-bg {
     background-image: url("../assets/women.png");
