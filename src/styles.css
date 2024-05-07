@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap");
+
 :root {
   --color-primary-white: rgb(240, 240, 240);
 }
@@ -27,7 +29,7 @@
 
 #followingBallsG,
 body.loading #followingBallsG {
-  display: block
+  display: block;
 }
 
 #followingBallsG > div {
@@ -38,52 +40,50 @@ body.loading #followingBallsG {
   -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
   animation: bouncedelay 1.4s infinite ease-in-out;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode: both
+  animation-fill-mode: both;
 }
 
 #followingBallsG .one {
   background-color: #fd9e34;
   margin-right: 3px;
-  -webkit-animation-delay: -.32s;
-  animation-delay: -.32s
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
 }
 
 #followingBallsG .two {
   background-color: rgb(255, 255, 255);
   margin-right: 3px;
-  -webkit-animation-delay: -.16s;
-  animation-delay: -.16s
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
 }
 
 #followingBallsG .three {
-  background-color: #4e7526
+  background-color: #4e7526;
 }
 
 @-webkit-keyframes bouncedelay {
-
   0%,
   100%,
   80% {
-    -webkit-transform: scale(0)
+    -webkit-transform: scale(0);
   }
 
   40% {
-    -webkit-transform: scale(1)
+    -webkit-transform: scale(1);
   }
 }
 
 @keyframes bouncedelay {
-
   0%,
   100%,
   80% {
     transform: scale(0);
-    -webkit-transform: scale(0)
+    -webkit-transform: scale(0);
   }
 
   40% {
     transform: scale(1);
-    -webkit-transform: scale(1)
+    -webkit-transform: scale(1);
   }
 }
 
@@ -93,17 +93,18 @@ body.loading #followingBallsG {
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: Montserrat;
+  font-family: "Anek Devanagari", sans-serif;
 }
 
 html {
   overflow-x: hidden !important;
+  font-family: "Anek Devanagari";
 }
 
 body {
   background-color: rgb(255, 255, 255);
   overflow-x: hidden !important;
-  font-family: Montserrat;
+  font-family: "Anek Devanagari";
 }
 
 #section1 {
@@ -116,7 +117,7 @@ body {
 #section1 .top-bar {
   width: 100%;
   height: 35px;
-  background: #2D3E50;
+  background: #2d3e50;
   position: absolute;
   top: 0px;
   left: 0;
@@ -154,18 +155,17 @@ body {
 }
 
 .navbar-nav .nav-item.active a {
-  color: #0CA678 !important;
+  color: #0ca678 !important;
 }
 
 .nav-item {
   padding: 0px 15px 0px 15px;
   font-size: 18px;
-
 }
 
 .nav-item a {
-  font-family: Playfair Display;
   text-align: center;
+  font-weight: 200;
 }
 
 .nav-link {
@@ -178,7 +178,6 @@ body {
 
 .navbar2 {
   height: 70px !important;
-
 }
 
 #wrapper {
@@ -202,7 +201,7 @@ body {
   /* min-height: 1349px; */
   left: 0px;
   top: 114px;
-  background: #FFFFFF;
+  background: #ffffff;
   /* z-index: 1; */
   box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
   -webkit-transition: all 0.5s ease;
@@ -218,7 +217,7 @@ body {
 
 #sidebar-wrapper::-webkit-scrollbar-thumb {
   border-radius: 0;
-  background-color: #0CA678;
+  background-color: #0ca678;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -243,7 +242,7 @@ body {
   position: absolute;
   top: 78px;
   left: 0;
-  height: 700px;
+  height: calc(100vh - 74px);
   overflow: hidden;
 }
 
@@ -260,14 +259,14 @@ body {
 }
 
 #section1 .swiper-div .swiper-shadow2 .heading-center {
-  font-family: Roboto;
+  font-family: "Anek Devanagari", Roboto;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: 74px;
   letter-spacing: 0em;
   text-align: center;
-  color: #1EE7C3 !important;
+  color: #1ee7c3 !important;
 }
 
 #section1 .swiper-div .swiper-shadow2 .wel-center {
@@ -283,9 +282,11 @@ body {
   position: absolute;
 }
 
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
+.swiper-slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .swiper-slide img {
@@ -314,7 +315,6 @@ body {
 #section2 {
   height: 100vh;
   width: 100%;
-
 }
 
 .swiper-button-next {
@@ -342,14 +342,19 @@ body {
 .section-2 p {
   font-size: 20px;
   font-weight: 200;
-  font-family: Montserrat;
+  font-family: "Anek Devanagari";
 }
 
 /* *****************  section2 *****************   */
 
 .section-3 {
   /* height: 728px; */
-  background: linear-gradient(83.61deg, #2D3E50 45.3%, rgba(45, 62, 80, 0.6) 96.35%), url(../assets/admin-half.jpg);
+  background: linear-gradient(
+      83.61deg,
+      #2d3e50 45.3%,
+      rgba(45, 62, 80, 0.6) 96.35%
+    ),
+    url(../assets/admin-half.jpg);
   background-size: cover;
   padding: 0 !important;
   background-attachment: fixed;
@@ -358,8 +363,9 @@ body {
 .section-3 h2 {
   font-size: 48px;
   font-weight: 800;
-  font-family: Montserrat;
-  color: #1EE7C3;
+  font-family: "Anek Devanagari";
+
+  color: #1ee7c3;
 }
 
 .section-3 p {
@@ -381,16 +387,18 @@ body {
 .section-4 h2 {
   text-align: center;
   font-size: 48px;
-  font-family: Montserrat;
+  font-family: "Anek Devanagari";
+
   font-weight: 800;
   color: #24323fd5;
 }
 
 .section-4 h3 {
   font-size: 28px;
-  font-family: Montserrat;
+  font-family: "Anek Devanagari";
+
   font-weight: 500;
-  color: #1ED1B1;
+  color: #1ed1b1;
 }
 
 .section-4 p {
@@ -398,7 +406,13 @@ body {
 }
 
 .section-5 {
-  background: linear-gradient(90deg, rgba(45, 62, 80, 0.865) 1.8%, rgba(45, 62, 80, 0.95) 50.9%, rgba(45, 62, 80, 0.865) 100%), url(../assets/green2.jpeg);
+  background: linear-gradient(
+      90deg,
+      rgba(45, 62, 80, 0.865) 1.8%,
+      rgba(45, 62, 80, 0.95) 50.9%,
+      rgba(45, 62, 80, 0.865) 100%
+    ),
+    url(../assets/green2.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -444,7 +458,11 @@ body {
 }
 
 .message-card .lower-card .profile-icon {
-  background-image: linear-gradient(rgba(45, 62, 80, .8), rgba(45, 62, 80, .6)), url('../assets/img.png');
+  background-image: linear-gradient(
+      rgba(45, 62, 80, 0.8),
+      rgba(45, 62, 80, 0.6)
+    ),
+    url("../assets/img.png");
   background-size: cover;
   background-position: center;
   height: 70px;
@@ -471,7 +489,6 @@ body {
   line-height: 14px;
 }
 
-
 .svg-vector2 {
   margin-bottom: -2px !important;
 }
@@ -493,14 +510,11 @@ body {
   margin-bottom: -215px;
 }
 
-
 .material-symbols-outlined {
   vertical-align: middle;
 }
 
-
 /* ***************footer starts here*************** */
-
 
 /* footer starts here */
 .footer-lp {
@@ -513,7 +527,8 @@ body {
 }
 
 .footer-lp .footer-content h2 {
-  font-family: Montserrat;
+  font-family: "Anek Devanagari";
+
   font-size: 24px;
   font-weight: 400;
   color: rgb(233, 233, 233);
@@ -522,7 +537,8 @@ body {
 }
 
 .footer-lp .footer-content p {
-  font-family: Montserrat;
+  font-family: "Anek Devanagari";
+
   font-size: 14px;
   font-weight: 200;
   line-height: 16px;
@@ -543,7 +559,8 @@ body {
   display: block;
   padding: 5px 20px;
   text-decoration: none;
-  font-family: Montserrat;
+  font-family: "Anek Devanagari";
+
   font-size: 14px;
   line-height: 18px;
   color: white;
@@ -553,7 +570,6 @@ body {
 .footer-lp .content-3 ul a,
 .footer-lp .content-4 ul a {
   padding-left: 10px !important;
-
 }
 
 .footer-lp .footer-content a:hover {
@@ -563,7 +579,8 @@ body {
 }
 
 .footer-lp .last-footer2 p {
-  font-family: Montserrat;
+  font-family: "Anek Devanagari";
+
   font-size: 16px;
   line-height: 18px;
   font-weight: 200;
@@ -587,13 +604,12 @@ body {
 .soci_wrap i.fa {
   display: inline-block !important;
   border-radius: 60px;
-  border: .3px solid white;
+  border: 0.3px solid white;
   padding: 0.5em 0.6em;
 }
 
 .footer-content.content-4 img {
   width: 90%;
-
 }
 
 .footer-content.content-4 hr {
@@ -607,26 +623,31 @@ body {
   color: rgb(224, 224, 224);
 }
 
-
 /* footer ends here */
 /* *** Media Queries *** */
 
-@media(max-width: 768px) {
-
+@media (max-width: 768px) {
   html {
     font-size: 80%;
   }
-
 }
 
-@media(max-width: 426px) {
+@media (max-width: 426px) {
+  p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+  }
   .footer-lp .footer-content {
     padding: 10px 0 20px 21.57px;
     position: relative;
   }
-
+  .footer-content.content-4 {
+    margin: auto;
+    text-align: center;
+  }
   #section1 .swiper-div .swiper-shadow2 .wel-center {
-    font-size: 24px !important;
+    font-size: 3rem !important;
+    font-weight: 900;
   }
 
   nav img {
@@ -634,30 +655,34 @@ body {
   }
 
   .section-2 p {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.5rem !important;
+    line-height: 1.6;
     padding-top: 20px;
   }
 
   .section-3 {
-    background: linear-gradient(83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%), url(../assets/admin-half-rev.jpg);
+    background: linear-gradient(83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%),
+      url(../assets/admin-half-rev.jpg);
     background-attachment: fixed;
   }
 
   .section-5 {
-    background: linear-gradient(83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%), url(../assets/facts.png);
+    background: linear-gradient(83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%),
+      url(../assets/facts.png);
     background-attachment: fixed;
   }
 
   .section-3 h2,
   .section-4 h2 {
-    font-size: 23px;
+    margin-top: 3rem;
+    font-size: 3rem;
   }
 
   .section-3 p {
     padding-bottom: 50px;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 1.5rem !important;
+    line-height: 1.6;
+    margin-bottom: 3em;
   }
 
   .svg-vector1 {
@@ -679,7 +704,8 @@ body {
   .sec6-row {
     padding-top: 0 !important;
   }
-
+  .message-card {
+  }
   .message-card .lower-card .profile-description h4 {
     font-size: 16px !important;
   }
@@ -698,7 +724,11 @@ body {
   }
 
   #section1 .swiper-div .swiper-shadow2 .heading-center {
-    font-size: 25px;
+    font-size: 5rem;
+    line-height: 1.3 !important;
+    width: 80vw;
+    text-align: center;
+    margin: auto;
   }
 
   .swiper-button-next,
@@ -710,7 +740,7 @@ body {
 
   #section1 .swiper-div,
   #section1 {
-    height: 270px;
+    /* height: 270px; */
   }
 
   .swiper-button-next,
